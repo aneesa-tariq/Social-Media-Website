@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialSphere - Responsive Website Using HTML, CSS and JS</title>
+    <!--============================ CSS Stylesheet Link ============================-->
+    <link rel="stylesheet" href="./style.css">
+    <!--============================ Icons CDN Link ============================ -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+
+</head>
+
+<body>
+    <!--============================ Navbar Section ============================-->
+    <nav>
+        <div class="container">
+            <h2 class="logo">SocialSphere</h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for Creaters, Inspirations and Projects">
+            </div>
+            <div class="create">
+                <label for="create-post" class="btn btn-primary">Create</label>
+                <div class="profile-picture">
+                    <img src="images/profile-picture-1.jpg" alt="Image Not Found">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--============================ MAIN SECTION ============================-->
+    <main>
+        <div class="container">
+
+            <!--============================ Left Section ============================-->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-picture">
+                        <img src="images/profile-picture-1.jpg" alt="Image Not Found">
+                    </div>
+                    <div class="handle">
+                        <h3>Aneesa Tariq</h3>
+                        <p class="text-muted">
+                            @Developer
+                        </p>
+                    </div>
+                </a>
+
+                <!--============================ Sidebar ============================ -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-compass"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell">
+                                <small class="notfication-count">9+</small>
+                            </i></span>
+                        <h3>Notifications</h3>
+                        <!--============================ Notifications Popup ============================-->
+                        <div class="notfications-popup">
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-picture.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Unsa Tariq</b> accepted your friend request.
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-picture-5.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Dua</b> commented on your post.
+                                    <small class="text-muted">3 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-picture-3.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Sabreena</b> likes your picture.
+                                    <small class="text-muted">4 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-picture-3.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Irha Khan</b> accepted your friend request.
+                                    <small class="text-muted">5 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/profile-picture-2.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Atta Tariq</b> accepted your friend request.
+                                    <small class="text-muted">6 DAYS AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class="uil uil-message">
+                                <small class="notfication-count">6+</small>
+                            </i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-bookmark"></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-analytics"></i></span>
+                        <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><i class="uil uil-palette"></i></span>
+                        <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Settings</h3>
+                    </a>
+                </div>
+
+                <!--============================ End of Sidebar ============================-->
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+
+            <!--============================ Middle Section ============================-->
+            <div class="middle">
+
+                <!--============================ stories ============================-->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-picture-1.jpg" alt="">
+                        </div>
+                        <p class="name">
+                            Irha Hamad
+                        </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-picture-2.jpg" alt="">
+                        </div>
+                        <p class="name">
+                            Aneesa Tariq
+                        </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-picture-5.jpg" alt="">
+                        </div>
+                        <p class="name">
+                            Unsa Tariq
+                        </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-picture-3.jpg" alt="">
+                        </div>
+                        <p class="name">
+                            Aleena Hamad
+                        </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-picture-2.jpg" alt="">
+                        </div>
+                        <p class="name">
+                            Sabrina Muqaddas
+                        </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-picture-1.jpg" alt="">
+                        </div>
+                        <p class="name">
+                            Dua Younus
+                        </p>
+                    </div>
+                </div>
+
+                <!--============================ End of Stories ============================-->
+                <form class="create-post">
+                    <div class="profile-picture">
+                        <img src="./images/profile-picture-3.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's your mind, Aneesa?" id="create-post">
+                    <input type="submit" value="post" class="btn btn-primary">
+                </form>
+
+                <!--============================ Feeds ============================-->
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-picture-2.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>
+                                        Aneesa tariq
+                                    </h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/gilr8.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span> <i class="uil uil-heart-sign"></i></span>
+                                <span><i class="uil uil-comment-alt-notes"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-picture-1.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-2.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-3.jpg" alt=""></span>
+                            <p>Liked by <b>Unsa</b> and <b>2, 323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Aneesa Tariq</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                <span class="harsh-tag">#Lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-picture-2.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>
+                                        Unsa tariq
+                                    </h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/pic-4.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span> <i class="uil uil-heart-sign"></i></span>
+                                <span><i class="uil uil-comment-alt-notes"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-picture-1.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-2.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-3.jpg" alt=""></span>
+                            <p>Liked by <b>Unsa</b> and <b>2, 323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Aneesa Tariq</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                <span class="harsh-tag">#Lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-picture-2.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>
+                                        Irha Hamad
+                                    </h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/girl7.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span> <i class="uil uil-heart-sign"></i></span>
+                                <span><i class="uil uil-comment-alt-notes"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-picture-1.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-2.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-3.jpg" alt=""></span>
+                            <p>Liked by <b>Unsa</b> and <b>2, 323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Aneesa Tariq</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                <span class="harsh-tag">#Lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-picture-2.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>
+                                        Dua Younus
+                                    </h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/girl6.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span> <i class="uil uil-heart-sign"></i></span>
+                                <span><i class="uil uil-comment-alt-notes"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-picture-1.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-2.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-3.jpg" alt=""></span>
+                            <p>Liked by <b>Unsa</b> and <b>2, 323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Aneesa Tariq</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                <span class="harsh-tag">#Lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-picture-2.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>
+                                        Alina Hamad
+                                    </h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/girl5.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span> <i class="uil uil-heart-sign"></i></span>
+                                <span><i class="uil uil-comment-alt-notes"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-picture-1.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-2.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-3.jpg" alt=""></span>
+                            <p>Liked by <b>Unsa</b> and <b>2, 323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Aneesa Tariq</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                <span class="harsh-tag">#Lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-picture-2.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>
+                                        Sabrina Atta
+                                    </h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/gilr4.webp" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span> <i class="uil uil-heart-sign"></i></span>
+                                <span><i class="uil uil-comment-alt-notes"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-picture-1.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-2.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-3.jpg" alt=""></span>
+                            <p>Liked by <b>Unsa</b> and <b>2, 323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Aneesa Tariq</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                <span class="harsh-tag">#Lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-picture-2.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>
+                                        Hania Hamza
+                                    </h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/girl3.avif" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span> <i class="uil uil-heart-sign"></i></span>
+                                <span><i class="uil uil-comment-alt-notes"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-picture-1.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-2.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-3.jpg" alt=""></span>
+                            <p>Liked by <b>Unsa</b> and <b>2, 323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Aneesa Tariq</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                <span class="harsh-tag">#Lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 644 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-picture-2.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>
+                                        Razia Usama
+                                    </h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/girl2.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span> <i class="uil uil-heart-sign"></i></span>
+                                <span><i class="uil uil-comment-alt-notes"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-picture-1.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-2.jpg" alt=""></span>
+                            <span><img src="./images/profile-picture-3.jpg" alt=""></span>
+                            <p>Liked by <b>Unsa</b> and <b>2, 323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Aneesa Tariq</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                <span class="harsh-tag">#Lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                    <!--============================ End of Feed ============================-->
+                </div>
+                <!--============================ End of Feeds ============================-->
+            </div>
+            <!--============================ End of Middle Section ============================-->
+
+            <!--============================ Right Section ============================-->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="uil uil-edit"></i>
+                    </div>
+                    <!--============================  Search Bar ============================-->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search Messages" id="message-search">
+                    </div>
+                    <!--============================  Messages Category ============================-->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+                    <!-- ============================ Message ============================-->
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/profile-picture-3.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Unsa Tariq</h5>
+                            <p class="text-muted">
+                                ok
+                            </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/profile-picture-5.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Anisa Tariq</h5>
+                            <p class="text-bold">
+                                Birthday Tomorrow
+                            </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/profile-picture-2.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Alina Hamad Khan</h5>
+                            <p class="text-bold">
+                                What are you doing now?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/profile-picture-1.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Irha Hamad</h5>
+                            <p class="text-bold">
+                                O wao! amazing job
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--   ============================ End of Messages ============================-->
+
+                <!-- ============================ Friend Requests ============================-->
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./images/profile-picture-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Unsa Tariq</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn ">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./images/profile-picture-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Unsa Tariq</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn ">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./images/profile-picture-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Unsa Tariq</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn ">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./images/profile-picture-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Unsa Tariq</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn ">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./images/profile-picture-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Unsa Tariq</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn ">Decline</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--============================ End of right  ============================-->
+        </div>
+    </main>
+
+    <!-- ============================ Theme customization ============================-->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your theme</h2>
+            <p class="text-muted">Manage your font size, color and background</p>
+            <!--============================ Font Sizes ============================-->
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!--============================ Primary Colors ============================-->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!--============================ Background colors ============================-->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-1">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-1">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--============================ JS Link ============================ -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
